@@ -1,0 +1,33 @@
+.skillsContainer {
+    display: grid;
+    width: 60rem;
+    grid-template-rows: 1fr 5fr;
+}
+
+.skillsContainer h1 {
+    height: 1rem;
+}
+
+.skillsContainer .skillSet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: content-box;
+}
+
+.skillsContainer .skillSet .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 15rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 9px;
+    background: #242424;
+    box-shadow: 20px 20px 32px #1f1f1f,
+        -20px -20px 32px #292929;
+}
+.skillsContainer .skillSet .card img {
+    max-height: 10rem;
+    max-width: 10rem;
+}

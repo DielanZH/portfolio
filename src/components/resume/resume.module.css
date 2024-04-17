@@ -1,0 +1,59 @@
+.resumeContainer {
+    display: grid;
+    width: 60rem;
+}
+
+.presentation {
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.presentation2 {
+    font-size: 3rem;
+    margin: 0;
+    width: 55rem;
+}
+
+.presentation3 {
+    width: 53rem;
+}
+
+.name {
+    font-size: 4rem;
+    margin: 0;
+}
+
+
+.CVButton {
+    font-family: Arial, Helvetica, sans-serif;
+    height:4rem ;
+    width: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 17rem;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #4281a4;
+    color: #ffff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.3rem;
+    box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+    transition: all 0.6s ease;
+
+  &:hover {
+    box-shadow: 0 10px 15px -3px #2c5d77, 0 4px 6px -2px #488aec17;
+  }
+  
+  &:focus,
+  &:active {
+    opacity: 0.85;
+    box-shadow: none;
+  }
+}
