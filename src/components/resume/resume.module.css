@@ -1,6 +1,7 @@
 .resumeContainer {
     display: grid;
     width: 60rem;
+    margin-top: 5rem;
 }
 
 .presentation {
