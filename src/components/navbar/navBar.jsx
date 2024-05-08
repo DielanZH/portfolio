@@ -1,6 +1,7 @@
-import styles from './navBar.module.css'
+import styles from './navBar.module.css';
+import PropTypes from 'prop-types';
 
-function NavBar() {
+function NavBar({ setTranslated, translated }) {
 
     let prevScroll = window.pageYOffset;
 
@@ -15,26 +16,52 @@ function NavBar() {
         prevScroll = currScroll;
     }
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
+    const scrollToSection = (sectionId, offset) => {
+        const section = document.getElementById(sectionId);
+
+        const posTop = section.offsetTop - offset;
+
+        section.scrollIntoView({
+
+            top: posTop,
+            behavior: 'smooth'
+        });
+    };
+
     return (
         <>
             <div className={styles.Container}>
 
                 <div className={styles.boldNav}>
-                <p>HOME</p>
-                <p>ABOUT</p>
-                <p>SKILLS</p>
-                <p>PROJECTS</p>
-                <p>CONTACT</p>
+                    <p onClick={scrollToTop}>HOME</p>
+                    <p onClick={() => scrollToSection('about', 20)}>ABOUT</p>
+                    <p onClick={() => scrollToSection('skills', 20)}>SKILLS</p>
+                    <p onClick={() => scrollToSection('projects', 20)}>PROJECTS</p>
+                    <p onClick={() => scrollToSection('contact')}>CONTACT</p>
                 </div>
 
                 <div className={styles.lightNav}>
                     <p>LN</p>
-                    <p>ES</p>
-                    <p>EN</p>
+
+                    <button onClick={() => setTranslated(!translated)}>
+                        {translated ? 'ES' : 'ENG'}
+                    </button>
                 </div>
             </div>
         </>
     )
+}
+
+NavBar.propTypes = {
+    setTranslated: PropTypes.func,
+    translated: PropTypes.func
 }
 
 export default NavBar

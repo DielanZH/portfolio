@@ -1,27 +1,27 @@
 import styles from './resume.module.css'
 
-export default function Resume() {
+export default function Resume({ translated }) {
     return (
         <div className={styles.resumeContainer}>
             <h3 className={styles.presentation}>
-                Hola, mi nombre es
+                {translated ? 'Hola, mi nombre es' : 'Hi, my name is'}
             </h3>
             <h1 className={styles.name}>
                 Orlando Daniel Diaz
             </h1>
             <h2 className={styles.presentation2}>
-                Soy un Desarrollador Full Stack y me especializo en el area de Front-end
+                {translated ? 'Soy un Desarrollador Full Stack y me especializo en el area de Front-end' :
+                    'I am a Full Stack Developer specializing in Front-end development.'}
             </h2>
 
             <p className={styles.presentation3}>
-                Actualmente, puedo decir que estoy disfrutando del mundo del desarrollo web junto a mi otra pasión la Geografía,
-                cada día en el mundo del desarrollo se ha convertido en una oportunidad para
-                seguir aprendiendo sobre nuevas características, implementaciones y demás,
-                las cuáles siempre trato de incluir en mis trabajos para que tengan una mejoría constante.
+                {translated ? 'Una de mis mayores motivaciones en este mundo es aprender. Así empecé mis años de autodidacta con tutoriales y repositorios de GitHub, hasta que tuve la fortuna de conocer el bootcamp de soyHenry. En esta etapa, además de desarrollar fuertemente mis habilidades como desarrollador, aprendí a trabajar en equipo de forma dinámica con metodologías ágiles, el manejo del flujo de GIT, estructura de datos, algoritmos y frameworks CSS.' :
+                    "One of my greatest motivations in this world is learning. I began my journey as a self-taught developer through tutorials and GitHub repositories until I was fortunate enough to discover the soyHenry bootcamp. During this stage, besides significantly developing my coding skills, I learned to work dynamically in a team using agile methodologies, managing the GIT workflow, understanding data structures, algorithms, and CSS frameworks."
+                }
             </p>
 
             <button className={styles.CVButton}>
-                Mira mi curriculum
+                {translated ? 'Mira mi curriculum' : 'Check out my resume'}
             </button>
 
         </div>

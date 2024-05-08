@@ -5,18 +5,29 @@ import Skills from './components/skills/skills';
 import styles from './App.module.css'
 import Contact from './components/contact/contact';
 import NavBar from './components/navbar/navbar';
+import { useState } from 'react';
 
 
 function App() {
+
+  const [translated, setTranslated] = useState(false);
+
   return (
     <>
-      <NavBar />
-      <div className={styles.content}>
-        <Resume />
-        <About />
+      <NavBar
+        translated={translated}
+        setTranslated={setTranslated}
+      />
+      <div id='home' className={styles.content}>
+        <Resume
+          translated={translated} />
+        <About
+          translated={translated} />
         <Skills />
-        <Projects />
-        <Contact />
+        <Projects
+          translated={translated} />
+        <Contact
+          translated={translated} />
       </div>
 
     </>

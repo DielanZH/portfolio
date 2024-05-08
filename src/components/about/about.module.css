@@ -1,6 +1,7 @@
 .aboutContainer {
     display: grid;
     width: 60rem;
+    margin-top: 17rem;
 }
 
 .about1 {

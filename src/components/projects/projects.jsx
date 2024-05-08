@@ -3,7 +3,7 @@ import styles from './projects.module.css'
 function Projects() {
     return (
 
-        <div className={styles.projectsContainer}>
+        <div id='projects' className={styles.projectsContainer}>
             <h1>Proyectos</h1>
 
                 <h2 className={styles.projectTittle}> App de recetas</h2>
