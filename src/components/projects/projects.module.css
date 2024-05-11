@@ -2,8 +2,23 @@
     width: 60rem;
 }
 
+.projectWelcome {
+    height: 5rem;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    font-stretch: expanded;
+}
+
+.projectText {
+    margin-top: -5px;
+    height: fit-content;
+    color: #5d97b6;
+    font-weight: 500;
+}
+
 .projectsContainer .projectTittle {
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     margin-bottom: 0;
     font-size: 2rem;
 }
