@@ -5,6 +5,9 @@ function Skills() {
             <h1>
                 Habilidades
             </h1>
+            <p className={styles.skillsText}>
+                {"//Estas son las tecnologias con las que trabajo/ estoy aprendiendo"}
+            </p>
 
             <div className={styles.skillSet}>
                 <div className={styles.card}>

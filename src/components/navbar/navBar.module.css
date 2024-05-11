@@ -3,9 +3,10 @@
     position: fixed;
     top: 0;
     transition: top 0.3s;
-    width: 1300px;
+    width: 1320px;
     grid-template-columns: 10fr 3fr 1fr;
-    background-color: #1f1f1f;
+    background-color: #242424;
+    box-shadow: 0 0 0px 0px #2c5d77, 0 0 9px 0px #488aec17;
 }
 
 .boldNav {

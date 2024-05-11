@@ -1,11 +1,22 @@
 .skillsContainer {
     display: grid;
     width: 60rem;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 0.8fr 0.4fr 5fr;
+    margin-bottom: 15rem;
 }
 
 .skillsContainer h1 {
     height: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    font-stretch: expanded;
+}
+
+.skillsText {
+    margin-top: -15px;
+    height: fit-content;
+    color: #5d97b6;
+    font-weight: 500;
 }
 
 .skillsContainer .skillSet {
@@ -18,8 +29,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15rem;
-    width: 15rem;
+    height: 12rem;
+    width: 12rem;
     margin: 1rem;
     padding: 1rem;
     border-radius: 9px;
