@@ -5,7 +5,7 @@
     transition: top 0.3s;
     width: 1300px;
     grid-template-columns: 10fr 3fr 1fr;
-    background-color: red;
+    background-color: #1f1f1f;
 }
 
 .boldNav {
@@ -20,4 +20,12 @@
     width: 130px;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 1rem;
+}
+
+.navBarBtn {
+    cursor: pointer;
+}
+
+.navBarBtn:hover {
+    color: #2c5d77;
 }

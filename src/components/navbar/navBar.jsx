@@ -31,8 +31,10 @@ function NavBar({ setTranslated, translated }) {
         section.scrollIntoView({
 
             top: posTop,
-            behavior: 'smooth'
+            behavior: 'smooth',
         });
+
+        document.querySelector(`.${styles.Container}`).style.top = "-100px"
     };
 
     return (
@@ -40,19 +42,19 @@ function NavBar({ setTranslated, translated }) {
             <div className={styles.Container}>
 
                 <div className={styles.boldNav}>
-                    <p onClick={scrollToTop}>HOME</p>
-                    <p onClick={() => scrollToSection('about', 20)}>ABOUT</p>
-                    <p onClick={() => scrollToSection('skills', 20)}>SKILLS</p>
-                    <p onClick={() => scrollToSection('projects', 20)}>PROJECTS</p>
-                    <p onClick={() => scrollToSection('contact')}>CONTACT</p>
+                    <p className={styles.navBarBtn} onClick={scrollToTop}>HOME</p>
+                    <p className={styles.navBarBtn} onClick={() => scrollToSection('about')}>ABOUT</p>
+                    <p className={styles.navBarBtn} onClick={() => scrollToSection('skills')}>SKILLS</p>
+                    <p className={styles.navBarBtn} onClick={() => scrollToSection('projects')}>PROJECTS</p>
+                    <p className={styles.navBarBtn} onClick={() => scrollToSection('contact')}>CONTACT</p>
                 </div>
 
                 <div className={styles.lightNav}>
                     <p>LN</p>
 
-                    <button onClick={() => setTranslated(!translated)}>
+                    <p className={styles.navBarBtn} onClick={() => setTranslated(!translated)}>
                         {translated ? 'ES' : 'ENG'}
-                    </button>
+                    </p>
                 </div>
             </div>
         </>
