@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import styles from './resume.module.css'
+import PropTypes from 'prop-types';
 
 export default function Resume({ translated }) {
     return (
@@ -20,10 +22,15 @@ export default function Resume({ translated }) {
                 }
             </p>
 
-            <button className={styles.CVButton}>
-                {translated ? 'Mira mi curriculum' : 'Check out my resume'}
-            </button>
+            <Link className={styles.CVButton} to="https://drive.google.com/file/d/1ZkWp7v0vFU0n5AX_ujMGY6xY5DhW6MhV/view?usp=sharing" target='_blank'>
+                <span className={styles.linkText}>
+                    {translated ? 'Mira mi curriculum' : 'Check out my resume'}
+                </span>
+            </Link>
 
         </div>
     )
+}
+Resume.propTypes = {
+    translated: PropTypes.bool
 }

@@ -63,7 +63,7 @@ function NavBar({ setTranslated, translated }) {
 
 NavBar.propTypes = {
     setTranslated: PropTypes.func,
-    translated: PropTypes.func
+    translated: PropTypes.bool
 }
 
 export default NavBar

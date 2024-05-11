@@ -8,7 +8,7 @@ function Projects() {
             <h1 className={styles.projectWelcome}>Proyectos</h1>
 
             <p className={styles.projectText}>
-                {"//Estos son los proyectos en los que trabajé recientemente"}
+                {"//Mira los proyectos en los que trabajé recientemente"}
             </p>
 
                 <h2 className={styles.projectTittle}> App de recetas</h2>
