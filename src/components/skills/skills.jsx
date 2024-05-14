@@ -31,6 +31,9 @@ function Skills() {
                 <div className={styles.card}>
                     <img src="src\assets\Postgresql_elephant.svg" alt="" />
                 </div>
+                <div className={styles.card}>
+                    <img src="src\assets\Tailwind_CSS_Logo.svg" alt="" />
+                </div>
             </div>
 
         </div>
