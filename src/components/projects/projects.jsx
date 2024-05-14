@@ -109,7 +109,7 @@ function Projects({ translated }) {
 
                 </div>
 
-                <img src="src\components\projects\images\InstaChef.png" alt="" />
+                <img src="src\components\projects\images\InstaChef.png" alt="/InstaChef.png" />
 
                 <p className={styles.tecnologies}>
                     JavaScript
