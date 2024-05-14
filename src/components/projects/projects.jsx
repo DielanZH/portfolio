@@ -72,7 +72,7 @@ function Projects({ translated }) {
                     }
                 </div>
 
-                <img src="/src/components/projects/images/component-corner.png" alt="\public\component-corner.png" />
+                <img src="/src/components/projects/images/component-corner.png" alt="/component-corner.png" />
 
                 <p className={styles.tecnologies}>
                     JavaScript
