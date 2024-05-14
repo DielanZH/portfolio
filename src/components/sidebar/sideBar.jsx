@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import styles from './sideBar.module.css'
-import gitHub from "src/assets/github-mark/github-mark/github-mark-white.svg"
+import gitHub from "/src/assets/github-mark/github-mark/github-mark-white.svg"
 document.getElementById('github').style.backgroundImage = `url("${gitHub}")`
 
 function SideBar() {
