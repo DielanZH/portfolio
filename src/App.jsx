@@ -6,6 +6,7 @@ import styles from './App.module.css'
 import Contact from './components/contact/contact';
 import NavBar from './components/navbar/navBar';
 import { useState } from 'react';
+import SideBar from './components/sidebar/sideBar';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
         translated={translated}
         setTranslated={setTranslated}
       />
+
+      <SideBar />
 
       <div id='home' className={styles.content}>
         <Resume
