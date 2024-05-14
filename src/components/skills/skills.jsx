@@ -1,5 +1,13 @@
 import styles from './skills.module.css'
 import PropTypes from 'prop-types';
+import HTML5 from "src/assets/HTML5-logo.svg";
+import CSS3 from "src/assets/CSS3_Black.svg";
+import JSLogo from "src/assets/JavaScript-logo.svg";
+import ReactLogo from "src/assets/React-icon.svg";
+import GitLogo from "src/assets/Git-logo.svg";
+import NodeJSLogo from "src/assets/Node.js_logo.svg";
+import PostgreLogo from "src/assets/Postgresql_elephant.svg";
+import TailwindLogo from "src/assets/Tailwind_CSS_Logo.svg";
 
 function Skills({ translated }) {
     return (
@@ -21,28 +29,28 @@ function Skills({ translated }) {
 
             <div className={styles.skillSet}>
                 <div className={styles.card}>
-                    <img src="src\assets\HTML5-logo.svg" alt="" />
+                    <img src={HTML5} alt="" />
                 </div>
                 <div className={styles.card}>
-                    <img src="src\assets\CSS3_Black.svg" alt="" />
+                    <img src={CSS3} alt="" />
                 </div>
                 <div className={styles.card}>
-                    <img src="src\assets\JavaScript-logo.svg" alt="" />
+                    <img src={JSLogo} alt="" />
                 </div>
                 <div className={styles.card}>
-                    <img src="src\assets\React-icon.svg" alt="" />
+                    <img src={ReactLogo} alt="" />
                 </div>
                 <div className={styles.card}>
-                    <img src="src\assets\Git-logo.svg" alt="" />
+                    <img src={GitLogo} alt="" />
                 </div>
                 <div className={styles.card}>
-                    <img src="src\assets\Node.js_logo.svg" alt="" />
+                    <img src={NodeJSLogo} alt="" />
                 </div>
                 <div className={styles.card}>
-                    <img src="src\assets\Postgresql_elephant.svg" alt="" />
+                    <img src={PostgreLogo} alt="" />
                 </div>
                 <div className={styles.card}>
-                    <img src="src\assets\Tailwind_CSS_Logo.svg" alt="" />
+                    <img src={TailwindLogo} alt="" />
                 </div>
             </div>
 
