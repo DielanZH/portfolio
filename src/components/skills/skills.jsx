@@ -1,12 +1,14 @@
 import styles from './skills.module.css'
-function Skills() {
+import PropTypes from 'prop-types';
+
+function Skills({ translated }) {
     return (
         <div id='skills' className={styles.skillsContainer}>
             <h1>
-                Habilidades
+                {translated ? 'Habilidades' : 'Skills'}
             </h1>
             <p className={styles.skillsText}>
-                {"//Estas son las tecnologias con las que trabajo/ estoy aprendiendo"}
+                {translated ? '//Estas son las tecnologias con las que trabajo/ estoy aprendiendo' : '//These are the technologies I work with/am learning'}
             </p>
 
             <div className={styles.skillSet}>
@@ -38,6 +40,10 @@ function Skills() {
 
         </div>
     )
+}
+
+Skills.propTypes = {
+    translated: PropTypes.bool
 }
 
 export default Skills
