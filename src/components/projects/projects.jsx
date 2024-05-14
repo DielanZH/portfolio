@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import styles from './projects.module.css'
 import PropTypes from 'prop-types'
-import recipeApp from "/src/components/projects/images/recipes.png";
+import recipeApp from "/recipes.png";
 import componentCorner from "/src/components/projects/images/component-corner.png";
 import instaChef from "/src/components/projects/images/InstaChef.png";
 
