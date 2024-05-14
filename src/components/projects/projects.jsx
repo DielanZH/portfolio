@@ -4,6 +4,8 @@ import PropTypes from 'prop-types'
 import recipeApp from "/recipes.png";
 import componentCorner from "/src/components/projects/images/component-corner.png";
 import instaChef from "/src/components/projects/images/InstaChef.png";
+import gitHub from "/src/assets/github-mark/github-mark/github-mark-white.svg";
+import deployLogo from '/src/assets/arrow-up-right-from-square-solid.svg';
 
 function Projects({ translated }) {
     return (
@@ -51,8 +53,8 @@ function Projects({ translated }) {
                     Styled Components
                     Spoonacular-API
                 </p>
-                <Link className={styles.GitHub} to={"https://github.com/DielanZH/Foods"} target='blank'></Link>
-                <button className={styles.Deploy}></button>
+                <Link className={styles.GitHub} to={"https://github.com/DielanZH/Foods"} target='blank' style={{ backgroundImage: `url(${gitHub})` }}></Link>
+                <button className={styles.Deploy} style={{ backgroundImage: `url(${deployLogo})` }} ></button>
 
             </div>
 
@@ -88,8 +90,8 @@ function Projects({ translated }) {
                     Styled Components
                     MercadoPago-API
                 </p>
-                <Link className={styles.GitHub} to={"https://github.com/solayae/component-corner"} target='blank'></Link>
-                <Link className={styles.Deploy} to={"https://component-corner.vercel.app"} target='blank'></Link>
+                <Link className={styles.GitHub} to={"https://github.com/solayae/component-corner"} target='blank' style={{ backgroundImage: `url(${gitHub})` }}></Link>
+                <Link className={styles.Deploy} to={"https://component-corner.vercel.app"} target='blank' style={{ backgroundImage: `url(${deployLogo})` }}></Link>
 
             </div>
 
@@ -128,8 +130,8 @@ function Projects({ translated }) {
                     Nodemailer-API
                 </p>
 
-                <Link className={styles.GitHub} to={"https://github.com/FrancoInca/InstaChef-Front"} target='blank'></Link>
-                <Link className={styles.Deploy} to={"https://insta-chef.vercel.app"} target='blank'></Link>
+                <Link className={styles.GitHub} to={"https://github.com/FrancoInca/InstaChef-Front"} target='blank' style={{ backgroundImage: `url(${gitHub})` }}></Link>
+                <Link className={styles.Deploy} to={"https://insta-chef.vercel.app"} target='blank' style={{ backgroundImage: `url(${deployLogo})` }}></Link>
 
             </div>
 

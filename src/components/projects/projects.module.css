@@ -89,7 +89,7 @@
     background: #242424;
     box-shadow: 6px 6px 12px #1e1e1e,
     -6px -6px 12px #2a2a2a;
-    background-image: url('src/assets/github-mark/github-mark/github-mark-white.svg');
+    /* background-image: url('src/assets/github-mark/github-mark/github-mark-white.svg'); */
     background-size: 2rem;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@
     box-shadow: 6px 6px 12px #1e1e1e,
     -6px -6px 12px #2a2a2a;
     border: none;
-    background-image: url('src/assets/arrow-up-right-from-square-solid.svg');
+    /* background-image: url('src/assets/arrow-up-right-from-square-solid.svg'); */
     background-size: 24px;
     background-color: #242424;
     background-position: 50% 50%;
