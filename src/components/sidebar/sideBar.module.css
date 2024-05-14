@@ -43,7 +43,7 @@
     text-align: center;
     border: none;
     background: #242424;
-    background-image: url('src/assets/LinkedIn.svg');
+    /* background-image: url('src/assets/LinkedIn.svg'); */
     background-size: 1.5rem;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@
     text-align: center;
     border: none;
     background: #242424;
-    background-image: url('src/assets/mail.svg');
+    /* background-image: url('src/assets/mail.svg'); */
     background-size: 1.5rem;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@
     text-align: center;
     border: none;
     background: #242424;
-    background-image: url('src/assets/PDF.svg');
+    /* background-image: url('src/assets/PDF.svg'); */
     background-size: 1.5rem;
     background-position: 50% 50%;
     background-repeat: no-repeat;
