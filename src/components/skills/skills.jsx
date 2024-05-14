@@ -1,13 +1,13 @@
 import styles from './skills.module.css'
 import PropTypes from 'prop-types';
-import HTML5 from "src/assets/HTML5-logo.svg";
-import CSS3 from "src/assets/CSS3_Black.svg";
-import JSLogo from "src/assets/JavaScript-logo.svg";
-import ReactLogo from "src/assets/React-icon.svg";
-import GitLogo from "src/assets/Git-logo.svg";
-import NodeJSLogo from "src/assets/Node.js_logo.svg";
-import PostgreLogo from "src/assets/Postgresql_elephant.svg";
-import TailwindLogo from "src/assets/Tailwind_CSS_Logo.svg";
+import HTML5 from "/src/assets/HTML5-logo.svg";
+import CSS3 from "/src/assets/CSS3_Black.svg";
+import JSLogo from "/src/assets/JavaScript-logo.svg";
+import ReactLogo from "/src/assets/React-icon.svg";
+import GitLogo from "/src/assets/Git-logo.svg";
+import NodeJSLogo from "/src/assets/Node.js_logo.svg";
+import PostgreLogo from "/src/assets/Postgresql_elephant.svg";
+import TailwindLogo from "/src/assets/Tailwind_CSS_Logo.svg";
 
 function Skills({ translated }) {
     return (
