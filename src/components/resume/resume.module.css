@@ -1,69 +1,70 @@
 .resumeContainer {
-    display: grid;
-    width: 60rem;
-    margin-top: 5rem;
+  display: grid;
+  width: 60rem;
+  margin-top: 5rem;
 }
 
 .presentation {
-    font-size: 1rem;
-    margin: 0;
-    margin-top: 1rem;
+  font-size: 1rem;
+  margin: 0;
+  margin-top: 1rem;
 }
 
 .presentation2 {
-    font-size: 3rem;
-    margin: 0;
-    width: 55rem;
+  font-size: 3rem;
+  margin: 0;
+  width: 55rem;
+  color: #5d97b6;
 }
 
 .presentation3 {
-    width: 53rem;
+  width: 53rem;
 }
 
 .name {
-    font-size: 4rem;
-    margin: 0;
+  font-size: 4rem;
+  margin: 0;
 }
 
-.linkText{
+.linkText {
   display: flex;
   text-align: center;
   align-items: center;
-  margin-top:20px;
+  margin-top: 20px;
   margin-left: 5px;
 }
 
-.linkTextES{
+.linkTextES {
   display: flex;
   text-align: center;
   align-items: center;
-  margin-top:20px;
+  margin-top: 20px;
   margin-left: 16px;
 }
 
 .CVButton {
   display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    height:4rem;
-    width: 12rem;
-    margin-top: 2rem;
-    border: none;
-    background-color: #4281a4;
-    color: #ffff;
-    font-size: 0.90rem;
-    font-weight: 700;
-    cursor: pointer;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: 0.3rem;
-    box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
-    transition: all 0.6s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 4rem;
+  width: 12rem;
+  margin-top: 2rem;
+  border: none;
+  background-color: #4281a4;
+  color: #ffff;
+  font-size: 0.90rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+  transition: all 0.6s ease;
 
   &:hover {
     box-shadow: 0 10px 15px -3px #2c5d77, 0 4px 6px -2px #488aec17;
   }
-  
+
   &:focus,
   &:active {
     opacity: 0.85;

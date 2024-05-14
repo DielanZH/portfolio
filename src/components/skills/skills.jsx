@@ -4,9 +4,17 @@ import PropTypes from 'prop-types';
 function Skills({ translated }) {
     return (
         <div id='skills' className={styles.skillsContainer}>
-            <h1>
-                {translated ? 'Habilidades' : 'Skills'}
-            </h1>
+
+            <div className={styles.skillsTittle}>
+
+                <h1>
+                    {translated ? 'Habilidades' : 'Skills'}
+                </h1>
+                <hr></hr>
+
+            </div>
+
+
             <p className={styles.skillsText}>
                 {translated ? '//Estas son las tecnologias con las que trabajo/ estoy aprendiendo' : '//These are the technologies I work with/am learning'}
             </p>

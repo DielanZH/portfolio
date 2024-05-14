@@ -7,7 +7,10 @@ function Contact({ translated }) {
     return (
         <div id='contact' className={styles.Contact_Container}>
 
-            <h1 className={styles.contactWelcome}>{translated ? 'Contacto' : 'Contact'}</h1>
+            <div className={styles.contactWelcome}>
+                <h1 className={styles.contactWelcome}>{translated ? 'Contacto' : 'Contact'}</h1>
+                <hr></hr>
+            </div>
 
             <p className={styles.contactText}>
                 {translated ? '// Envíame un mensaje o un correo electrónico - danieldiaz-123@hotmail.com'

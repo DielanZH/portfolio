@@ -7,7 +7,10 @@ function Projects({ translated }) {
 
         <div id='projects' className={styles.projectsContainer}>
 
-            <h1 className={styles.projectWelcome}>{translated ? 'Proyectos' : 'Projects'}</h1>
+            <div className={styles.projectWelcome}>
+                <h1 >{translated ? 'Proyectos' : 'Projects'}</h1>
+                <hr></hr>
+            </div>
 
             <p className={styles.projectText}>
                 {translated ? '//Mira los proyectos en los que trabajé recientemente' : "//Take a look at the projects I've worked on"}

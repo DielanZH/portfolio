@@ -4,9 +4,14 @@ import PropTypes from 'prop-types'
 export default function About({ translated }) {
     return (
         <div id='about' className={styles.aboutContainer}>
-            <h1>
-                {translated ? 'Sobre mi' : 'About me'}
-            </h1>
+            <div className={styles.aboutTittle}>
+
+                <h1>
+                    {translated ? 'Sobre mi' : 'About me'}
+                    <hr></hr>
+                </h1>
+
+            </div>
 
             <div className={styles.about1}>
                 {translated ?

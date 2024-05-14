@@ -4,8 +4,17 @@
     margin-top: 17rem;
 }
 
+.aboutTittle hr {
+    width: 8.4rem;
+    margin-left: 1rem;
+    margin: 0;
+    border: 2.5px solid #5d97b6;
+    border-radius: 5px;
+}
+
 .about1 {
     width: 53rem;
+    margin-top: -1rem;
 }
 
 .about2 {

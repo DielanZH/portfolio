@@ -5,13 +5,28 @@
 .projectWelcome {
     height: 5rem;
     margin: 0;
+}
+
+.projectWelcome h1{
+    height: 5rem;
+    margin: 0;
     font-size: 3rem;
     font-weight: 700;
     font-stretch: expanded;
+    
+}
+
+.projectWelcome hr {
+    width: 13.3rem;
+    margin-left: 1rem;
+    margin: 0;
+    margin-top: -0.8rem;
+    border: 2.5px solid #5d97b6;
+    border-radius: 5px;
 }
 
 .projectText {
-    margin-top: -5px;
+    margin-top: 0.2rem;
     height: fit-content;
     color: #5d97b6;
     font-weight: 500;

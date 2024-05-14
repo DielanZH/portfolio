@@ -9,7 +9,6 @@ function NavBar({ setTranslated, translated }) {
         let currScroll = window.pageYOffset;
         if (prevScroll > currScroll) {
             document.querySelector(`.${styles.Container}`).style.top = "0"
-            console.log(prevScroll)
         } else {
             document.querySelector(`.${styles.Container}`).style.top = "-100px"
         }
