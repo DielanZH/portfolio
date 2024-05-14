@@ -33,6 +33,14 @@
   margin-left: 5px;
 }
 
+.linkTextES{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top:20px;
+  margin-left: 16px;
+}
+
 .CVButton {
   display: inline-block;
     font-family: Arial, Helvetica, sans-serif;

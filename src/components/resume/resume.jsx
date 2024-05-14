@@ -29,7 +29,7 @@ export default function Resume({ translated }) {
             </div>
 
             <Link className={styles.CVButton} to="https://drive.google.com/file/d/1ZkWp7v0vFU0n5AX_ujMGY6xY5DhW6MhV/view?usp=sharing" target='_blank'>
-                <span className={styles.linkText}>
+                <span className={translated ? styles.linkTextES : styles.linkText}>
                     {translated ? 'Mira mi curriculum' : 'Check out my resume'}
                 </span>
             </Link>
