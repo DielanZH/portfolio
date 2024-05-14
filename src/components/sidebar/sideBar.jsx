@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 import styles from './sideBar.module.css'
 import gitHub from "/src/assets/github-mark/github-mark/github-mark-white.svg";
-import linkedIn from 'src/assets/LinkedIn.svg';
-import mailBG from 'src/assets/mail.svg';
-import pdfBG from 'src/assets/PDF.svg';
+import linkedIn from '/src/assets/LinkedIn.svg';
+import mailBG from '/src/assets/mail.svg';
+import pdfBG from '/src/assets/PDF.svg';
 
 function SideBar() {
     return (
