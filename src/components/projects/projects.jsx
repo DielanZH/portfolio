@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
 import styles from './projects.module.css'
 import PropTypes from 'prop-types'
+import recipeApp from "src/components/projects/images/recipes.png";
+import componentCorner from "/src/components/projects/images/component-corner.png";
+import instaChef from "src/components/projects/images/InstaChef.png";
 
 function Projects({ translated }) {
     return (
@@ -34,7 +37,7 @@ function Projects({ translated }) {
                     }
                 </div>
 
-                <img src="src\components\projects\images\recipes.png" alt="" />
+                <img src={recipeApp} alt="" />
 
                 <p className={styles.tecnologies}>
                     JavaScript
@@ -72,7 +75,7 @@ function Projects({ translated }) {
                     }
                 </div>
 
-                <img src="/src/components/projects/images/component-corner.png" alt="/component-corner.png" />
+                <img src={componentCorner} alt="/component-corner.png" />
 
                 <p className={styles.tecnologies}>
                     JavaScript
@@ -109,7 +112,7 @@ function Projects({ translated }) {
 
                 </div>
 
-                <img src="src\components\projects\images\InstaChef.png" alt="/InstaChef.png" />
+                <img src={instaChef} alt="/InstaChef.png" />
 
                 <p className={styles.tecnologies}>
                     JavaScript
