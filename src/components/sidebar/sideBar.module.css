@@ -1,12 +1,22 @@
 .Container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 3fr;
     position: fixed;
-    height: 100vh;
-    width: 100px;
+    height: 60vh;
+    width: 40px;
     z-index: 10;
+    margin-top: 45vh;
+    right: 0;
+}
 
+.Container hr {
+    position: absolute;
+    margin-top: 14rem;
+    margin-left: 0.6rem;
+    height: 17rem;
+    border: 2.5px solid white;
+    border-radius: 5px;
 }
 
 .GitHub {
@@ -20,6 +30,11 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     cursor: pointer;
+    transition: .2s;
+}
+
+.GitHub:hover {
+    transform: scale(1.07);
 }
 
 .LinkedIn {
@@ -33,7 +48,14 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     cursor: pointer;
+    transition: .2s;
 }
+
+
+.LinkedIn:hover {
+    transform: scale(1.07);
+}
+
 
 .Mail {
     height: 1.5rem;
@@ -46,6 +68,12 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     cursor: pointer;
+    transition: .2s;
+}
+
+
+.Mail:hover {
+    transform: scale(1.07);
 }
 
 .PDFicon {
@@ -59,4 +87,9 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     cursor: pointer;
+    transition: .2s;
+}
+
+.PDFicon:hover {
+    transform: scale(1.07);
 }
