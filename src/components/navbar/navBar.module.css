@@ -18,6 +18,13 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
+.boldNavES {
+    display: grid;
+    width: 550px;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 1.2fr 1.5fr 1.5fr 1.5fr;
+}
+
 .lightNav {
     display: grid;
     width: 130px;

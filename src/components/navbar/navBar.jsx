@@ -41,12 +41,12 @@ function NavBar({ setTranslated, translated }) {
         <>
             <div className={styles.Container}>
 
-                <div className={styles.boldNav}>
-                    <p className={styles.navBarBtn} onClick={scrollToTop}>HOME</p>
-                    <p className={styles.navBarBtn} onClick={() => scrollToSection('about')}>ABOUT</p>
-                    <p className={styles.navBarBtn} onClick={() => scrollToSection('skills')}>SKILLS</p>
-                    <p className={styles.navBarBtn} onClick={() => scrollToSection('projects')}>PROJECTS</p>
-                    <p className={styles.navBarBtn} onClick={() => scrollToSection('contact')}>CONTACT</p>
+                <div className={translated ? styles.boldNavES : styles.boldNav}>
+                    <p className={styles.navBarBtn} onClick={scrollToTop}>{translated ? 'INICIO' : 'HOME'}</p>
+                    <p className={styles.navBarBtn} onClick={() => scrollToSection('about')}>{translated ? 'SOBRE MI' : 'ABOUT'}</p>
+                    <p className={styles.navBarBtn} onClick={() => scrollToSection('skills')}>{translated ? 'HABILIDADES' : 'SKILLS'}</p>
+                    <p className={styles.navBarBtn} onClick={() => scrollToSection('projects')}>{translated ? 'PROYECTOS' : 'PROJECTS'}</p>
+                    <p className={styles.navBarBtn} onClick={() => scrollToSection('contact')}>{translated ? 'CONTACTO' : 'CONTACT'}</p>
                 </div>
 
                 <div className={styles.lightNav}>
