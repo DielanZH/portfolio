@@ -8,7 +8,7 @@ export default function About({ translated }) {
 
                 <h1>
                     {translated ? 'Sobre mi' : 'About me'}
-                    <hr></hr>
+                    <hr style={translated? {width:'8.3rem'} : {width:'9.1rem'}}></hr>
                 </h1>
 
             </div>

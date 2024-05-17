@@ -14,7 +14,7 @@ function Projects({ translated }) {
 
             <div className={styles.projectWelcome}>
                 <h1 >{translated ? 'Proyectos' : 'Projects'}</h1>
-                <hr></hr>
+                <hr style={translated? {width:'13.6rem'} : {width:'11.1rem'}}></hr>
             </div>
 
             <p className={styles.projectText}>

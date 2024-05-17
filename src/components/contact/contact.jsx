@@ -9,7 +9,7 @@ function Contact({ translated }) {
 
             <div className={styles.contactWelcome}>
                 <h1 className={styles.contactWelcome}>{translated ? 'Contacto' : 'Contact'}</h1>
-                <hr></hr>
+                <hr style={translated ? { width: '12.6rem' } : { width: '11rem' }}></hr>
             </div>
 
             <p className={styles.contactText}>

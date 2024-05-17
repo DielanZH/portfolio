@@ -18,7 +18,7 @@ function Skills({ translated }) {
                 <h1>
                     {translated ? 'Habilidades' : 'Skills'}
                 </h1>
-                <hr></hr>
+                <hr style={translated? {width:'13.9rem'} : {width:'6rem'}}></hr>
 
             </div>
 
