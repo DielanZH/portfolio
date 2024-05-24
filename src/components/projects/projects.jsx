@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import recipeApp from "/recipes.png";
 import componentCorner from "/src/components/projects/images/component-corner.png";
 import instaChef from "/src/components/projects/images/InstaChef.png";
+import gitHubProfile from "/src/components/projects/images/GitHubProfile.png";
 import gitHub from "/src/assets/github-mark/github-mark/github-mark-white.svg";
 import deployLogo from '/src/assets/arrow-up-right-from-square-solid.svg';
 
@@ -134,6 +135,43 @@ function Projects({ translated }) {
                 <Link className={styles.Deploy} to={"https://insta-chef.vercel.app"} target='blank' style={{ backgroundImage: `url(${deployLogo})` }}></Link>
 
             </div>
+
+
+            
+            <h2 className={styles.projectTittle} id={styles.cornerTittle}> GitHub Profile</h2>
+            <div className={styles.Cards} id={styles.corner}>
+
+                <div className={styles.description}>
+
+                    {translated ?
+                        <p>
+                            Acepté un desafío de devChallenges para crear una SPA que utiliza la API de GitHub para obtener y mostrar información sobre repositorios y usuarios. Además, implementé principios de diseño responsive para hacer que la aplicación sea accesible y funcional en varios dispositivos y tamaños de pantalla.
+                        </p>
+
+                        :
+
+                        <p>
+                           I took on a challenge from devChallenges to create a SPA that utilizes the GitHub API to fetch and display information about repositories and users. Additionally, I implemented responsive design principles to make the app accessible and functional across various devices and screen sizes.
+                        </p>
+                    }
+                </div>
+
+                <img src={gitHubProfile} alt="/component-corner.png" />
+
+                <p className={styles.tecnologies}>
+                    JavaScript
+                    React.js
+                    React-router
+                    <br></br>
+                    Styled Components
+                    GitHub-API
+                </p>
+                <Link className={styles.GitHub} to={"https://github.com/DielanZH/GitHub-profile"} target='blank' style={{ backgroundImage: `url(${gitHub})` }}></Link>
+                <Link className={styles.Deploy} to={"https://github-profile-dielanzh.vercel.app"} target='blank' style={{ backgroundImage: `url(${deployLogo})` }}></Link>
+
+            </div>
+
+
 
 
 
