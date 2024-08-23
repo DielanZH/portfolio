@@ -46,8 +46,8 @@
     padding: 1rem;
     border-radius: 9px;
     background: #242424;
-    box-shadow: 20px 20px 32px #1f1f1f,
-        -20px -20px 32px #292929;
+    box-shadow: 7px 7px 22px #1f1f1f,
+        -5px -5px 22px #292929;
 }
 .skillsContainer .skillSet .card img {
     max-height: 10rem;

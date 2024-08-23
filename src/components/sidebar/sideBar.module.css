@@ -12,9 +12,9 @@
 
 .Container hr {
     position: absolute;
-    margin-top: 14rem;
+    margin-top: 34vh;
     margin-left: 0.6rem;
-    height: 17rem;
+    height: 30vh;
     border: 2.5px solid white;
     border-radius: 5px;
 }
