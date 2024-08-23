@@ -21,7 +21,8 @@ function App() {
         setTranslated={setTranslated}
       />
 
-      <SideBar />
+      <SideBar
+      translated={translated} />
 
       <div id='home' className={styles.content}>
         <Resume
